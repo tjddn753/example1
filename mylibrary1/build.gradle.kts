@@ -6,9 +6,9 @@ plugins {
 publishing {
     publications {
         register<MavenPublication>("release") {
-            groupId = "com.my-company"
+            groupId = "com.tjddn753"
             artifactId = "my-library"
-            version = "1.0"
+            version = "1.0.0"
 
             afterEvaluate {
                 from(components["release"])
